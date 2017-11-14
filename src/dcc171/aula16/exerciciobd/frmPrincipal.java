@@ -69,6 +69,18 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         lblNome.setText("Nome");
 
+        edtNome.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                edtNomeActionPerformed(evt);
+            }
+        });
+
+        edtIdade.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                edtIdadeActionPerformed(evt);
+            }
+        });
+
         lblIdade.setText("Idade");
 
         btnSaida.setText("Saida");
@@ -222,6 +234,14 @@ public class frmPrincipal extends javax.swing.JFrame {
     private void btnEntradaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntradaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnEntradaActionPerformed
+
+    private void edtIdadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edtIdadeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_edtIdadeActionPerformed
+
+    private void edtNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edtNomeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_edtNomeActionPerformed
     
     private void exibeNaGrid(){
         try {
